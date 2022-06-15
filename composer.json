@@ -1,7 +1,7 @@
 {
-	"name": "yourname/flarum-lang-xxish",
+	"name": "flarum-lang/bengali",
 	"type": "flarum-extension",
-	"description": "Xxish language pack for Flarum.",
+	"description": "Bengali language pack for Flarum.",
 	"homepage": "https://github.com/yourname/flarum-lang-xxish",
 	"keywords": [
 		"locale",
@@ -17,8 +17,8 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/yourname/flarum-lang-xxish/issues",
-		"source": "https://github.com/yourname/flarum-lang-xxish"
+		"issues": "https://github.com/flarum-lang/bengali/issues",
+		"source": "https://github.com/flarum-lang/bengali"
 	},
 	"require": {
 		"flarum/core": "^1.2"
@@ -35,8 +35,8 @@
 			}
 		},
 		"flarum-locale": {
-			"code": "xx",
-			"title": "Xxish"
+			"code": "ben",
+			"title": "Bengali"
 		},
 		"extiverse": {
 			"discuss": ""
