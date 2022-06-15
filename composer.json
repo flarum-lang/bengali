@@ -2,11 +2,11 @@
 	"name": "flarum-lang/bengali",
 	"type": "flarum-extension",
 	"description": "Bengali language pack for Flarum.",
-	"homepage": "https://github.com/yourname/flarum-lang-xxish",
+	"homepage": "https://github.com/flarum-lang/bengali",
 	"keywords": [
 		"locale",
 		"flarum",
-		"xx-locale"
+		"bn-locale"
 	],
 	"license": "MIT",
 	"authors": [
@@ -27,7 +27,7 @@
 	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
-			"title": "Xxish",
+			"title": "Bengali",
 			"icon": {
 				"image": "icon.svg",
 				"backgroundSize": "cover",
