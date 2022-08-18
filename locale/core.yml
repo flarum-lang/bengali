@@ -9,12 +9,16 @@ core:
       colors_heading: 'রঙ সমূহ'
       colors_text: 'আপনার ফোরাম এর theme এর জন্য দুটি রঙ পছন্দ করুন ।প্রথমটি হাইলাইট কালার হিসেবে ব্যবহৃত হবে, আর অপর টি Background Elements স্টাইল করার জন্য ব্যবহৃত হবে।'
       custom_footer_heading: 'কাস্টম Footer'
+      custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'কাস্টম Header'
+      custom_header_text: '=> core.ref.custom_header_text'
       custom_styles_heading: 'কাস্টম Styles'
       custom_styles_text: 'আপনার নিজস্ব CSS Code ব্যবহার করে ফোরাম এর স্টাইল Customize করুন।'
       dark_mode_label: 'ডার্ক মোড'
       description: 'আপনার ফোরাম এর কালার, লোগো এবং অন্যান্য Variables Customize করুন।'
       edit_css_button: 'Custom CSS সম্পাদনা করুন'
+      edit_footer_button: '=> core.ref.custom_footer_title'
+      edit_header_button: '=> core.ref.custom_header_title'
       enter_hex_message: 'একটি Hexadecimal কালার Code Enter করুন।'
       favicon_heading: ফেভিকন
       favicon_text: 'ফোরাম এর Shortcut আইকন হিসেবে ব্যবহার করার জন্য একটি ইমেজ আপলোড করুন ।'
@@ -22,6 +26,7 @@ core:
       logo_text: 'ফোরাম title এর জায়গায় প্রদর্শিত হওয়ার জন্য একটি ইমেজ আপলোড করুন ।'
       title: অ্যাপিয়ারেন্স
     basics:
+      all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'ডিফল্ট ভাষা'
       description: 'আপনার ফোরাম টাইটেল, ভাষা এবং অন্যান্য ব্যাসিক সেটিংস সেট করুন।'
       display_name_heading: 'ইউজার ডিসপ্লে নেম'
@@ -44,15 +49,28 @@ core:
       tools_button: টুলস
     edit_css:
       customize_text: 'আপনার নিজস্ব সিএসএস কোড অ্যাড করে ফোরামের অ্যাপিয়ারেন্স কাস্টমাইজ করুন। এই কোড গুলো ফ্লারাম এর <a>ডিফল্ট স্টাইল কোড</a>এর উপর প্রয়োগ হবে।'
+      submit_button: '=> core.ref.save_changes'
       title: 'কাস্টম সিএসএস সম্পাদনা করুন'
+    edit_footer:
+      customize_text: '=> core.ref.custom_footer_text'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.custom_footer_title'
     edit_group:
+      color_label: '=> core.ref.color'
       delete_button: 'ডিলিট গ্রুপ'
       delete_confirmation: 'আপনি কি এই গ্রুপটি ডিলিট করতে নিশ্চিত ? এই গ্রুপের মেম্বাররা ডিলিট হবে না।'
       hide_label: 'ফোরামে হাইড করে রাখুন'
+      icon_label: '=> core.ref.icon'
+      icon_text: '=> core.ref.icon_text'
       name_label: নাম
       plural_placeholder: 'বহুবচন (যেমন: Mods)'
       singular_placeholder: 'এক বচন (যেমন: Mod)'
+      submit_button: '=> core.ref.save_changes'
       title: 'গ্রুপ তৈরি করুন'
+    edit_header:
+      customize_text: '=> core.ref.custom_header_text'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.custom_header_title'
     email:
       addresses_heading: 'ঠিকানা সমূহ'
       description: 'আপনার ফোরামের ড্রাইভার ,সেটিংস এবং এড্রেস গুলো কনফিগার করুন যেগুলো মেইল পাঠাতে ব্যবহৃত হবে।'
@@ -136,3 +154,15 @@ core:
       delete_posts_label: 'পোস্ট গুলো ডিলিট করুন'
       description: 'কে কি দেখবে এবং করতে পারবে তা কনফিগার করুন।'
       edit_posts_label: 'পোস্টগুলো সম্পাদনা করুন'
+      edit_users_credentials_label: 'User এর Credentials সম্পাদনা করুন'
+      edit_users_groups_label: 'User এর Group সম্পাদনা করুন'
+      edit_users_label: 'User Attributes সম্পাদনা করুন'
+      global_heading: গ্লোবাল
+      moderate_heading: 'মডারেট করুন'
+      new_group_button: 'নতুন Group'
+      participate_heading: 'অংশ নিন'
+      post_without_throttle_label: 'অপেক্ষা ছাড়াই একাধিকবার Reply দিন'
+      read_heading: পড়ুন
+      rename_discussions_label: 'Discussion এর নাম পরিবর্তন করুন'
+      reply_to_discussions_label: 'Discussions এর Reply দিন'
+      search_users_label: 'User সার্চ করুণ'
