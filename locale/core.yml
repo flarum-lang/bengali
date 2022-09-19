@@ -7,6 +7,8 @@ core:
     appearance:
       colored_header_label: 'রঙিন Header'
       colors_heading: 'রঙ সমূহ'
+      colors_primary_label: 'প্রাথমিক কালার'
+      colors_secondary_label: 'Secondary কালার'
       colors_text: 'আপনার ফোরাম এর theme এর জন্য দুটি রঙ পছন্দ করুন ।প্রথমটি হাইলাইট কালার হিসেবে ব্যবহৃত হবে, আর অপর টি Background Elements স্টাইল করার জন্য ব্যবহৃত হবে।'
       custom_footer_heading: 'কাস্টম Footer'
       custom_footer_text: '=> core.ref.custom_footer_text'
@@ -45,6 +47,7 @@ core:
     dashboard:
       clear_cache_button: 'Cache ক্লিয়ার করুন'
       description: 'একনজরে আপনার ফোরাম।'
+      io_error_message: 'দুঃখিত! Filesystem এ লিখতে পারিনি। দয়া করে আপনার Filesystem এর Permission গুলো check করুন । অন্যথায় Command Line থেকে চেষ্টা করুন।'
       title: ড্যাশবোর্ড
       tools_button: টুলস
     edit_css:
@@ -169,3 +172,4 @@ core:
       sign_up_label: 'সাইন আপ'
       start_discussions_label: 'আলোচনা শুরু করুন'
       title: অনুমতি
+      view_forum_label: 'ফোরাম দেখুন (Discussions এবং Users)'
