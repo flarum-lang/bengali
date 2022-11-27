@@ -14,7 +14,7 @@
 		"source": "https://github.com/flarum-lang/bengali"
 	},
 	"require": {
-		"flarum/core": "^1.2"
+		"flarum/core": "^1.5"
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true,
