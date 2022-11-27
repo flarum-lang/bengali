@@ -1,3 +1,8 @@
+> **This language pack is searching for a maintainer!**
+>
+> This language pack is maintained by the community. Anyone can translate through [Weblate](https://weblate.rob006.net/languages/bn/flarum/) and no one verifies contributed translations. If you want to help maintain this package, you can contact us in [this discussion](https://discuss.flarum.org/d/27519-the-flarum-language-project).
+
+
 # Bengali language pack for [Flarum](https://flarum.org/)
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/flarum-lang/bengali?color=success&label=stable)](https://packagist.org/packages/flarum-lang/bengali) 
@@ -6,7 +11,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/flarum-lang/bengali)](https://packagist.org/packages/flarum-lang/bengali/stats) 
 [![Monthly Downloads](https://img.shields.io/packagist/dm/flarum-lang/bengali)](https://packagist.org/packages/flarum-lang/bengali/stats) 
 
-This language pack contains Bengali translations for Flarum (compatible with `1.2.0` or newer) and popular extensions. Full list of supported extensions is available below.
+This language pack contains Bengali translations for Flarum (compatible with `1.5.0` or newer) and popular extensions. Full list of supported extensions is available below.
 
 
 ## Installation
@@ -14,7 +19,7 @@ This language pack contains Bengali translations for Flarum (compatible with `1.
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/bengali
+composer require flarum-lang/bengali:dev-master
 ```
 
 Then enable extension in admin panel of your Flarum.
@@ -39,7 +44,7 @@ php flarum cache:clear
 
 | Component | Status |
 | --- | --- |
-| [Core](https://github.com/flarum/core) | [![Translation status](https://weblate.rob006.net/widgets/flarum/bn/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/bn/) |
+| [Core](https://github.com/flarum/flarum-core) | [![Translation status](https://weblate.rob006.net/widgets/flarum/bn/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/bn/) |
 | Validation | [![Translation status](https://weblate.rob006.net/widgets/flarum/bn/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/bn/) |
 
 
