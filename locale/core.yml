@@ -14,6 +14,7 @@ core:
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'কাস্টম Header'
       custom_header_text: '=> core.ref.custom_header_text'
+      custom_styles_cannot_use_less_features: 'কাস্টম LESS-এ @import এবং data-uri ফিচারগুলো অনুমোদিত নয়।'
       custom_styles_heading: 'কাস্টম Styles'
       custom_styles_text: 'আপনার নিজস্ব CSS Code ব্যবহার করে ফোরাম এর স্টাইল Customize করুন।'
       dark_mode_label: 'ডার্ক মোড'
@@ -44,12 +45,33 @@ core:
       title: বেসিক
       welcome_banner_heading: 'স্বাগতম ব্যানার'
       welcome_banner_text: 'আপনার Home এ থাকা ব্যানার টির লেখা কনফিগার করুন ।আপনার অতিথিদের স্বাগতম জানাতে এটি ব্যবহার করুন ।'
+    create_user:
+      email_confirmed_label: 'ব্যবহারকারী নিশ্চিত করতে এই ইমেল প্রয়োজন'
+      email_placeholder: '=> core.ref.email'
+      password_placeholder: '=> core.ref.password'
+      submit_and_create_another_button: 'তৈরি করুন এবং অন্য যোগ করুন'
+      submit_button: 'ব্যবহারকারী তৈরি করুন'
+      title: 'নতুন ব্যবহারকারী তৈরি করুন'
+      use_random_password: 'এলোমেলো পাসওয়ার্ড তৈরি করুন'
+      username_placeholder: '=> core.ref.username'
     dashboard:
       clear_cache_button: 'Cache ক্লিয়ার করুন'
       description: 'একনজরে আপনার ফোরাম।'
       io_error_message: 'দুঃখিত! Filesystem এ লিখতে পারিনি। দয়া করে আপনার Filesystem এর Permission গুলো check করুন । অন্যথায় Command Line থেকে চেষ্টা করুন।'
+      status:
+        headers:
+          queue-driver: 'Queue ড্রাইভার'
+          scheduler-status: সময়সূচী
+          session-driver: 'সেশন ড্রাইভার'
+        scheduler:
+          active: সক্রিয়
+          inactive: নিষ্ক্রিয়
+          never-run: 'কখনো রান করাবেন না'
       title: ড্যাশবোর্ড
       tools_button: টুলস
+    debug-warning:
+      detail: "যখন <code>debug</code> মোড সক্রিয় থাকে, তখন Flarum প্রতিটি অনুরোধে তার <code>JavaScript</code> এবং <code>CSS</code> অ্যাসেটগুলো পুনর্নির্মাণ করে। এছাড়াও, এটি ডেটাবেসের গোপনীয় তথ্য, পরিবেশ ভেরিয়েবল ইত্যাদি মতো সংবেদনশীল তথ্য ফাঁস করতে পারে।\n\nসুরক্ষা এবং কার্যকারিতার জন্য, প্রোডাকশন পরিবেশে <code>debug</code> মোডটি <code>config.php</code> ফাইলে নিষ্ক্রিয় করার পরামর্শ দেওয়া হচ্ছে। আরও বিস্তারিত নির্দেশনার জন্য <link>Flarum ডকুমেন্টেশন</link> দেখুন।\n"
+      label: 'ডিবাগ মোড সক্রিয়'
     edit_css:
       customize_text: 'আপনার নিজস্ব সিএসএস কোড অ্যাড করে ফোরামের অ্যাপিয়ারেন্স কাস্টমাইজ করুন। এই কোড গুলো ফ্লারাম এর <a>ডিফল্ট স্টাইল কোড</a>এর উপর প্রয়োগ হবে।'
       submit_button: '=> core.ref.save_changes'
@@ -148,8 +170,10 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
+      allow_hide_own_posts_label: 'নিজের পোস্ট মুছে ফেলার অনুমতি দিন'
       allow_post_editing_label: 'পোস্ট সম্পাদনার অনুমতি দিন'
       allow_renaming_label: 'নাম পরিবর্তনের অনুমতি দিন'
+      create_access_token_label: 'Access টোকেন তৈরি করুন'
       create_heading: 'তৈরি করুন'
       delete_discussions_forever_label: 'চিরতরে আলোচনা গুলো ডিলিট করে দেন'
       delete_discussions_label: 'আলোচনা গুলো ডিলিট করুন'
@@ -161,6 +185,7 @@ core:
       edit_users_groups_label: 'User এর Group সম্পাদনা করুন'
       edit_users_label: 'User Attributes সম্পাদনা করুন'
       global_heading: গ্লোবাল
+      moderate_access_tokens_label: 'অ্যাক্সেস টোকেন মডারেট করুন'
       moderate_heading: 'মডারেট করুন'
       new_group_button: 'নতুন Group'
       participate_heading: 'অংশ নিন'
@@ -173,3 +198,29 @@ core:
       start_discussions_label: 'আলোচনা শুরু করুন'
       title: অনুমতি
       view_forum_label: 'ফোরাম দেখুন (Discussions এবং Users)'
+      view_hidden_groups_label: 'লুকানো গ্রুপ ব্যাজ দেখুন'
+      view_last_seen_at_label: 'সর্বদা ব্যবহারকারী সর্বশেষ দেখা সময় দেখুন'
+      view_post_ips_label: 'পোস্ট আইপি ঠিকানা দেখুন'
+    permissions_controls:
+      allow_indefinitely_button: 'অনির্দিষ্টকালের জন্য'
+      allow_never_button: '=> core.ref.never'
+      allow_some_minutes_button: '{গণনা, বহুবচন, একটি {# মিনিটের জন্য} অন্য {# মিনিটের জন্য}}'
+      allow_ten_minutes_button: '10 মিনিটের জন্য'
+      allow_until_reply_button: 'পরবর্তী উত্তর না হওয়া পর্যন্ত'
+      everyone_button: সবাই
+      members_button: '=> core.group.members'
+      signup_closed_button: বন্ধ
+      signup_open_button: খোলা
+    settings:
+      saved_message: 'আপনার পরিবর্তন সংরক্ষিত হয়েছে।'
+      submit_button: '=> core.ref.save_changes'
+    upload_image:
+      remove_button: '=> core.ref.remove'
+      upload_button: 'একটি ছবি নির্বাচন করুন..।'
+    users:
+      create_user_button: 'নতুন ব্যবহারকারী'
+      description: 'আপনার ফোরামে সমস্ত ব্যবহারকারীর একটি পাতাযুক্ত তালিকা।'
+      grid:
+        columns:
+          display_name:
+            title: 'প্রদর্শনের নাম'
