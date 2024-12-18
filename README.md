@@ -54,6 +54,8 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`flarum/bbcode`](https://github.com/flarum/bbcode) | [![Translation status](https://weblate.rob006.net/widgets/flarum/bn/flarum-bbcode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-bbcode/bn/) |
+| [`flarum/markdown`](https://github.com/flarum/markdown) | [![Translation status](https://weblate.rob006.net/widgets/flarum/bn/flarum-markdown/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-markdown/bn/) |
 
 <!-- flarum-extensions-list-stop -->
 
