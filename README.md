@@ -44,8 +44,8 @@ php flarum cache:clear
 
 | Component | Status |
 | --- | --- |
-| [Core](https://github.com/flarum/flarum-core) | [![Translation status](https://weblate.rob006.net/widgets/flarum/bn/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/core/bn/) |
-| Validation | [![Translation status](https://weblate.rob006.net/widgets/flarum/bn/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/validation/bn/) |
+| [Core](https://github.com/flarum/flarum-core) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/bn/core/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/core/bn/) |
+| Validation | [![Translation status](https://weblate.rob006.net/widgets/flarum2/bn/validation/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/validation/bn/) |
 
 
 ## Translation status for official extensions
@@ -54,8 +54,8 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
-| [`flarum/bbcode`](https://github.com/flarum/bbcode) | [![Translation status](https://weblate.rob006.net/widgets/flarum/bn/flarum-bbcode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-bbcode/bn/) |
-| [`flarum/markdown`](https://github.com/flarum/markdown) | [![Translation status](https://weblate.rob006.net/widgets/flarum/bn/flarum-markdown/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-markdown/bn/) |
+| [`flarum/bbcode`](https://github.com/flarum/bbcode) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/bn/flarum-bbcode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-bbcode/bn/) |
+| [`flarum/markdown`](https://github.com/flarum/markdown) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/bn/flarum-markdown/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/flarum-markdown/bn/) |
 
 <!-- flarum-extensions-list-stop -->
 
@@ -76,9 +76,8 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
-| [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) | [![Translation status](https://weblate.rob006.net/widgets/flarum/bn/acpl-lscache/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-lscache/bn/) |
-| [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) | [![Translation status](https://weblate.rob006.net/widgets/flarum/bn/acpl-mobile-tab/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-mobile-tab/bn/) |
-| [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/bn/acpl-my-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/acpl-my-tags/bn/) |
+| [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/bn/acpl-lscache/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-lscache/bn/) |
+| [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/bn/acpl-my-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/acpl-my-tags/bn/) |
 
 <!-- various-extensions-list-stop -->
 
