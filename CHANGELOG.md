@@ -13,10 +13,10 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache)
-* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab)
-* [`acpl/my-tags`](https://github.com/android-com-pl/my-tags)
-* [`flarum/bbcode`](https://github.com/flarum/bbcode)
-* [`flarum/markdown`](https://github.com/flarum/markdown)
+* [`acpl/flarum-lscache`](https://github.com/android-com-pl/flarum-lscache) (13% complete)
+* [`acpl/mobile-tab`](https://github.com/android-com-pl/mobile-tab) (14% complete)
+* [`acpl/my-tags`](https://github.com/android-com-pl/my-tags) (33% complete)
+* [`flarum/bbcode`](https://github.com/flarum/bbcode) (100% complete)
+* [`flarum/markdown`](https://github.com/flarum/markdown) (100% complete)
 
 
