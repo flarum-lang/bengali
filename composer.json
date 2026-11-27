@@ -1,24 +1,24 @@
 {
 	"name": "flarum-lang/bengali",
+	"description": "Bengali Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Bengali language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/bengali",
 	"keywords": [
-		"locale",
-		"flarum",
-		"bn-locale"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/bengali",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/bengali/issues",
+		"forum": "https://discuss.flarum.org/d/40174",
 		"source": "https://github.com/flarum-lang/bengali"
 	},
 	"require": {
 		"flarum/core": "^1.5"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		},
 		"flarum-extension": {
 			"title": "Bengali",
 			"category": "language",
@@ -30,13 +30,7 @@
 		},
 		"flarum-locale": {
 			"code": "bn",
-			"title": "Bengali"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "বাংলা"
 		}
 	}
 }
